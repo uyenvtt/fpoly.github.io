@@ -1,0 +1,287 @@
+nav{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    font-weight: bolder;
+    line-height:40px;
+    background-color: red;
+    color:white;
+    text-align:center;
+    font-variant:small-caps;
+    }
+    header{
+        height:30px;
+    }
+    footer{
+     
+        line-height:50px;
+        background-color:lightcyan;
+        text-align:center;
+        font-variant:small-caps;
+        clear:both;     
+    }
+    article{
+        width:70%;
+        float: left;
+        background-color:  rgb(253, 215, 222) ;
+        
+    }
+    aside{
+        width: 30%;
+        float: right;
+    }
+    /*lab6*/
+    iframe[name=page]{
+        width: 100%;
+        min-height: 400px;
+       }
+       body{
+       padding:0px;
+       margin:0px;
+       }
+       .container{
+        max-width:1000px;
+        margin:0 auto;
+       }
+       .container > header{
+        background-image: url('C:/Users/ADMIN/Documents/ASSIGNMENT WEB/Images/Fahasa.png');
+        background-size:100% 100%;
+        height:0px;
+        padding-bottom:25%;
+       }
+       .container > nav{
+        line-height:40px;
+        background-color:red;
+        color:white;
+        text-align:center;
+        font-variant:small-caps;
+       }
+       .container > article{
+        min-height:500px;
+        width:75%;
+        background-color: rgb(253, 215, 222);
+        float:left;
+       }
+       .container > aside{
+        min-height:500px;
+        width:25%;
+        background-color: rgb(181, 224, 241);
+        float:right;
+       }
+       .container > footer{
+        border-top:5px double rgb(212, 66, 13);
+        line-height:50px;
+        background-color:lightcyan;
+        text-align:center;
+        font-variant:small-caps;
+        clear:both;
+       }
+       .container > nav > a{
+        color:white;
+        text-decoration:none;
+        margin:0 10px;
+       }
+       .container > nav > a:hover{
+        color:yellow;
+        text-decoration:underline;
+       }
+    /*lab7.1*/
+    .vmenu{
+        padding:0px;
+        margin: 5px;
+        list-style: none;
+        border-radius: 3px;
+        box-shadow: 0 0 2px gray;
+        }
+    .vmenu a{
+        background: url('C:/Users/ADMIN/Documents/LAB678/Image/hoamai.jpg') no-repeat left center;
+        display: block;
+        border-bottom: 1px dotted rgb(195, 223, 38);
+        color:red;
+        font-variant: small-caps;
+        font-size: larger;
+        text-decoration: none;
+        padding: 8px 5px 8px 70px;
+    }
+    .vmenu a:hover{
+        background: url() no-repeat left center;
+        border-bottom: 1px dotted white;
+        background-color: rgb(175, 240, 56);
+        color:black;
+        font-weight: bold;
+    }
+    /*lab7.2*/
+    .col-25{
+        width:50%;
+        float: left;
+    }
+    .pro{
+        border-radius: 5px;
+        box-shadow: 0 0 1px rgb(236, 89, 89);
+        margin: 5px;
+        padding:5px;
+        text-align: center;
+        position: relative;
+    }
+    .pro>.name{
+        font-variant: small-caps;
+        color: orangered;
+        
+    }
+    .pro .image{
+        max-width: 98%;
+        height:150px;
+        margin-bottom: 10px;
+    }
+    .pro>.icons>.image{
+        width:25px;
+    }
+    .pro>.icons{
+        position: absolute;
+        right:70px;
+        bottom:5px;
+        width:35px;
+    }
+    .pro>.new-icon{
+        position: absolute;
+        top:0px;
+        right:60px;
+
+    }
+    .pro>.price{
+        position: absolute;
+        left: 70px;
+        bottom: 5px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 15px;
+        color: rgb(3, 3, 3);
+    }
+    /*lab7.3*/
+    .container{
+        position: relative;
+    }
+    .top-right{
+            position: absolute ;
+            top:0px;
+            right: 0px;
+            border-bottom-left-radius: 30px;
+            background-color: rgb(255, 230, 4);
+            box-shadow: 3px 3px 2px gray;
+            height: 20px;
+            padding: 5px 10px 5px 20px;
+    }
+    
+    .company-info{
+        bottom:5px;
+        left:15px;
+        position: relative;
+        font-size: larger;
+        color: blue;
+        top: 00px;
+        text-shadow: 0 0 10px orangered;
+        font-variant: small-caps;
+        height: 50px;
+        padding: 15px;
+        margin: 5px;
+    }
+    .menu>ul>li:hover>ul{
+        display: block;
+        z-index: 1;
+    }
+    .company-info>h1{
+        color:red;
+        border-bottom: 2px dotted orangered;
+        width: 200px;
+        padding: 0px;
+        margin: 0px;
+        
+    }
+  
+    /*lab8*/
+    .menu>ul>li{ 
+          display:inline-block;
+          position:relative;
+    }
+    .menu>ul>li>a{
+          display: block;
+    } 
+    /**/
+    .menu>ul{
+           padding:0 pixel;
+           margin:0 pixel;
+           list-style:none;
+           border-radius:3 pixel;
+           background-color:rgb(210, 118, 233);
+           text-align:center;
+    }
+    .menu>ul>li>a{
+          text-decoration:none;
+          font-variant:small-caps;
+          font-size:larger;
+          color:white;
+          padding:0 10 pixel;
+          line-height:40 pixel;
+    }
+    .menu>ul>li>a:hover{
+           color:yellow;
+    }
+    /**/
+    .menu ul ul{
+           position:absolute;
+           display:none;
+    }
+    .menu ul ul a{
+           display:block;
+    }
+    .menu>ul>li:hover>ul{
+           display: block;
+    }
+    /**/
+    .menu ul ul{
+           padding:0 pixel;
+           margin:0 pixel;
+           list-style:none;
+           border-radius:3 pixel;
+           width:200 pixel;
+           background-color:white;
+           box-shadow:0 0 1 pixel gray;
+    }
+    .menu ul ul a{
+           line-height:30 pixel;
+           color:orangered;
+           text-decoration:none;
+           font-variant:small-caps;
+           font-size:larger;
+           padding:0 10 pixel;
+    }
+    .menu ul ul a:hover{
+           background-color:orangered;
+           color:white;
+    }
+    /**/
+    
+    /**/
+    .h2{
+        text-align: center;
+        color: blue;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular',
+         'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+.detail{
+    width: 100%;
+}
+.detail-image{
+    width: 50%;
+    float: left;
+}
+.detail-content{
+    width: 50%;
+    float: right;
+}
+.menu input[type=text] {
+    float: right;
+    padding: 6px;
+    margin-top: 10px;
+    margin-right: 16px;
+    border: none;
+    font-size: 16px;
+  }

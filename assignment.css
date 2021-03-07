@@ -43,7 +43,7 @@ nav{
         margin:0 auto;
        }
        .container > header{
-        background-image: url('C:/Users/ADMIN/Documents/ASSIGNMENT WEB/Images/Fahasa.png');
+        background-image: url('images/fahasa.png');
         background-size:100% 100%;
         height:0px;
         padding-bottom:25%;
@@ -93,7 +93,7 @@ nav{
         box-shadow: 0 0 2px gray;
         }
     .vmenu a{
-        background: url('C:/Users/ADMIN/Documents/LAB678/Image/hoamai.jpg') no-repeat left center;
+        background: url('images/hoamai.jpg') no-repeat left center;
         display: block;
         border-bottom: 1px dotted rgb(195, 223, 38);
         color:red;
